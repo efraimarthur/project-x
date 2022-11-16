@@ -1,0 +1,46 @@
+.test{
+    background-color: rgb(236, 239, 230);
+    
+}
+.nav-link:hover{
+    opacity: 60%;
+    color: blue;
+}
+.nav-link:active{
+    opacity: 100%;
+}
+
+.bg-header{
+    background-image: url("/asdH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100vh; */
+    /* background-color: red; */
+}
+
+.content-header{
+    padding-top: 230px;
+    padding-bottom: 230px;
+
+}
+
+.main{
+    padding-top: 50px;
+}
+
+.login-bg{
+    background-image: url("/login-bg.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* min-height: 100vh; */
+}
+
+.bg-card-login{
+    background-color: rgba(95, 95, 87, 0.333);
+    padding: 50px;
+}
+
+.text-bg{
+    min-height: 40vh;
+}
