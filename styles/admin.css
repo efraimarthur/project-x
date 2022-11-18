@@ -1,0 +1,10 @@
+.bg-login {
+  background-image: url("/bglogin.jpg");
+  min-height: 100vh;
+}
+
+.bg-input-login {
+  background-color: #ffff;
+
+  bg-opacity: 50;
+}
