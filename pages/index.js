@@ -56,7 +56,7 @@ export default function Home() {
               className="text-decoration-none color red fw-bold text-info"
               target={"_blank"}
             >
-              Online Registration
+              Siswa Baru
             </Link>
           </div>
         </div>
