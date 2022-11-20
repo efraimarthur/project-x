@@ -44,3 +44,30 @@
 .text-bg{
     min-height: 40vh;
 }
+
+.bg-siswa{
+    background-color: rgb(240, 243, 193);
+}
+
+.card-siswa{
+    padding: 200px
+}
+
+.imageSiswa-wrap{
+    height: 260px;
+    margin-top: -50px;
+    /* margin-left: -100px;
+    margin-right: -100px; */
+    /* background-position: center;
+    background-size: contain; */
+}
+.h2-siswabaru{
+    margin-top: -180px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-logout-siswa:hover{
+    opacity: 80%;
+}
+.btn-logout-siswa{
+    font-family: cursive;
+}

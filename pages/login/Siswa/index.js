@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Siswa = () => {
   return (
@@ -47,16 +48,28 @@ const Siswa = () => {
                     id="exampleInputPassword1"
                   />
                 </div>
-                <div className="row px-3">
-                  <button type="submit" class="btn btn-dark shadow">
-                    Login
-                  </button>
-                  <button
-                    type="submit"
-                    class="btn mt-3 text-primary btn-outline-dark shadow"
+                <div className="row justify-content-center">
+                  <Link
+                    href={"/siswa"}
+                    passHref
+                    className="d-block row align-items-center"
                   >
-                    Register
-                  </button>
+                    <button type="submit" class="btn btn-dark shadow-sm">
+                      Login
+                    </button>
+                  </Link>
+                  <Link
+                    href={"/login/siswa/baru"}
+                    passHref
+                    className="d-block row align-items-center"
+                  >
+                    <button
+                      type="submit"
+                      class="btn mt-3 text-primary btn-outline-dark shadow-sm"
+                    >
+                      Siswa Baru
+                    </button>
+                  </Link>
                 </div>
               </form>
             </div>

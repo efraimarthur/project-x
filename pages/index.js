@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="mx-3">
             <Link
-              href="#"
+              href="/login/siswa/baru"
               className="text-decoration-none color red fw-bold text-info"
               target={"_blank"}
             >
