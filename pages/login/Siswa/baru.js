@@ -69,6 +69,30 @@ const Baru = () => {
                         Login
                       </button>
                     </Link>
+                    <Link
+                      href={"/login/siswa/"}
+                      passHref
+                      className="d-block row align-items-center"
+                    >
+                      <button
+                        type="submit"
+                        class="btn mt-3 text-primary btn-outline-dark shadow-sm"
+                      >
+                        Siswa lama
+                      </button>
+                    </Link>
+                    <Link
+                      href={"/"}
+                      passHref
+                      className="d-block row align-items-center"
+                    >
+                      <button
+                        type="submit"
+                        class="btn mt-3 btn-danger shadow-sm"
+                      >
+                        Kembali ke Home
+                      </button>
+                    </Link>
                   </div>
                 </form>
               </div>

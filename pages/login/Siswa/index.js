@@ -70,6 +70,15 @@ const Siswa = () => {
                       Siswa Baru
                     </button>
                   </Link>
+                  <Link
+                    href={"/"}
+                    passHref
+                    className="d-block row align-items-center"
+                  >
+                    <button type="submit" class="btn mt-3 btn-danger shadow-sm">
+                      Kembali ke Home
+                    </button>
+                  </Link>
                 </div>
               </form>
             </div>
