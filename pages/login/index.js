@@ -9,19 +9,17 @@ export default function Login() {
           <h1 className="text-center">Login</h1>
         </div>
 
-        <div class="d-grid gap-2">
-          <Link
-            href={"/login/guru"}
-            class="btn btn-info btn-opacity-50 rounded"
-            type="button"
-          >
+        <div class="d-flex justify-content-center d-grid gap-2">
+          <Link href={"/login/Guru"} class="btn btn-info w-50 btn-opacity-50 rounded fw-bold" type="button">
             Login Guru
           </Link>
-          <Link
-            href={"/login/siswa"}
-            class="btn btn-warning btn-opacity-50"
-            type="button"
-          >
+          <Link href={"/login/Guru"} class="btn btn-info w-50 btn-opacity-50 rounded fw-bold" type="button">
+            Login Wali Kelas
+          </Link>
+          <Link href={"/login/Guru"} class="btn btn-info w-50 btn-opacity-50 rounded fw-bold" type="button">
+            Login Guru
+          </Link>
+          <Link href={"/login/Siswa"} class="btn btn-info w-50 btn-opacity-50 fw-bold" type="button">
             Login Siswa
           </Link>
         </div>

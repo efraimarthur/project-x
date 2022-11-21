@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Login() {
   return (
     <div className=" bg-login ">
@@ -23,9 +23,10 @@ export default function Login() {
           </div>
         </div>
         <div class="d-grid gap-2">
-          <button class="btn btn-primary btn-opacity-50 rounded" type="button">
-            Login
-          </button>
+          <Link href={"/login/Guru/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
+            Login Guru
+          </Link>
+
           <button class="btn btn-warning btn-opacity-50" type="button">
             Register
           </button>
