@@ -8,3 +8,8 @@
 
   bg-opacity: 50;
 }
+
+.bg-home-guru {
+  background-image: url("/bglogin.jpg");
+  min-height: 100vh;
+}
