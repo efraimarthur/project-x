@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next/link";
 export default function Login() {
   return (
-    <div className=" bg-login ">
+    <div className=" bg-ppdb ">
       <div className=" bg-dark text-white shadow p-3 mb-5  rounded bg-opacity-50 p-5 w-50  position-absolute top-50 start-50 translate-middle ">
         <div className=" mb-3 row  ">
-          <h1>Guru</h1>
-          <h5>Welcome back! Please enter your details</h5>
+          <h1>Panitia PPDB</h1>
+          <h5>Selamat datang! Silahkan Masukkan Email dan Password</h5>
           <label for="staticEmail" class="col-sm-2 col-form-label">
             Email
           </label>
@@ -23,11 +23,11 @@ export default function Login() {
           </div>
         </div>
         <div class="d-grid gap-2">
-          <Link href={"/login/Guru/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
+          <Link href={"/login/Ppdb/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
             Masuk
           </Link>
           <Link href={"/login"} class="btn btn-warning btn-opacity-50 rounded" type="button">
-            back
+            Kembali
           </Link>
         </div>
       </div>
