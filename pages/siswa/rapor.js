@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Siswa = () => {
+const Rapor = () => {
   return (
     <div className="">
       <div className="text-bg-dark d-flex flex-row gap-5 justify-content-start">
@@ -127,39 +127,11 @@ const Siswa = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-10">
-            <div className="row">
-              <div className="col-md-8">
-                {" "}
-                <img width={600} src="/learning-animate.svg"></img>
-              </div>
-              <div className="col-md-4">
-                <h1
-                  style={{ color: "violet", fontFamily: "cursive" }}
-                  className="text-center mt-2 border-bottom border-info shadow-sm"
-                >
-                  Dashboard
-                </h1>
-                <p
-                  style={{
-                    color: "violet",
-                    wordSpacing: 5,
-                    letterSpacing: 3,
-                    fontFamily: "cursive",
-                  }}
-                  className="mt-3"
-                >
-                  Selamat datang siswa, Anda bisa melihat Absen, rapor, dan juga
-                  hasil naik kelas kamu loh... dengan cara menekan menu di
-                  bagian kiri layar
-                </p>
-              </div>
-            </div>
-          </div>
+          <div className="col-md-10"></div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Siswa;
+export default Rapor;

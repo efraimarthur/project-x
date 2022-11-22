@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Siswa = () => {
+const Absen = () => {
   return (
     <div className="">
       <div className="text-bg-dark d-flex flex-row gap-5 justify-content-start">
@@ -127,34 +127,80 @@ const Siswa = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-10">
-            <div className="row">
-              <div className="col-md-8">
-                {" "}
-                <img width={600} src="/learning-animate.svg"></img>
-              </div>
-              <div className="col-md-4">
-                <h1
-                  style={{ color: "violet", fontFamily: "cursive" }}
-                  className="text-center mt-2 border-bottom border-info shadow-sm"
-                >
-                  Dashboard
-                </h1>
-                <p
-                  style={{
-                    color: "violet",
-                    wordSpacing: 5,
-                    letterSpacing: 3,
-                    fontFamily: "cursive",
-                  }}
-                  className="mt-3"
-                >
-                  Selamat datang siswa, Anda bisa melihat Absen, rapor, dan juga
-                  hasil naik kelas kamu loh... dengan cara menekan menu di
-                  bagian kiri layar
-                </p>
-              </div>
-            </div>
+          <div className="col-md-10 mt-5">
+            <h3 className="fw-bold mb-5">Absen</h3>
+            <table class="table table-hover table-dark table-striped-columns">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Kelas</th>
+                  <th scope="col">Tanggal dan waktu</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Matematika</td>
+                  <td>Selasa,20 jan 2022</td>
+                  <td>Bolos</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Matematika</td>
+                  <td>Kamis, 22 jan 2022</td>
+                  <td>Absen</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Bahasa inggris</td>
+                  <td>Jumat, 23 jan 2022</td>
+                  <td>Absen</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Kimia</td>
+                  <td>Senin, 26 jan 2022</td>
+                  <td>Absen</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -162,4 +208,4 @@ const Siswa = () => {
   );
 };
 
-export default Siswa;
+export default Absen;
