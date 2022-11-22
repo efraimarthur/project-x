@@ -5,7 +5,7 @@ export default function Login() {
     <div className=" bg-login ">
       <div className=" bg-dark text-white shadow p-3 mb-5  rounded bg-opacity-50 p-5 w-50  position-absolute top-50 start-50 translate-middle ">
         <div className=" mb-3 row  ">
-          <h1>Guru</h1>
+          <h1> Wali Kelas</h1>
           <h5>Welcome back! Please enter your details</h5>
           <label for="staticEmail" class="col-sm-2 col-form-label">
             Email
@@ -23,11 +23,11 @@ export default function Login() {
           </div>
         </div>
         <div class="d-grid gap-2">
-          <Link href={"/login/Guru/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
+          <Link href={"/login/Walikelas/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
             Masuk
           </Link>
           <Link href={"/login"} class="btn btn-warning btn-opacity-50 rounded" type="button">
-            back
+            Kembali
           </Link>
         </div>
       </div>

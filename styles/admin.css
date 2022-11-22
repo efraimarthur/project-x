@@ -13,3 +13,8 @@
   background-image: url("/bglogin.jpg");
   min-height: 100vh;
 }
+
+.bg-ppdb {
+  background-image: url("/asu.png");
+  min-height: 100vh;
+}
