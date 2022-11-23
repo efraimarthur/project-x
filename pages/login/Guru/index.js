@@ -11,7 +11,13 @@ export default function Login() {
             Email
           </label>
           <div class="col-sm-10">
-            <input type="text" readonly class="form-control rounded-pill" id="staticEmail" placeholder="email@example.com" />
+            <input
+              type="text"
+              readonly
+              class="form-control rounded-pill"
+              id="staticEmail"
+              placeholder="email@example.com"
+            />
           </div>
         </div>
         <div class="mb-3 row">
@@ -19,14 +25,26 @@ export default function Login() {
             Password
           </label>
           <div class="col-sm-10">
-            <input type="password" class="form-control rounded-pill" id="inputPassword" />
+            <input
+              type="password"
+              class="form-control rounded-pill"
+              id="inputPassword"
+            />
           </div>
         </div>
         <div class="d-grid gap-2">
-          <Link href={"/login/Guru/home"} class="btn btn-info btn-opacity-50 rounded" type="button">
+          <Link
+            href={"/login/guru/home"}
+            class="btn btn-info btn-opacity-50 rounded"
+            type="button"
+          >
             Masuk
           </Link>
-          <Link href={"/login"} class="btn btn-warning btn-opacity-50 rounded" type="button">
+          <Link
+            href={"/login"}
+            class="btn btn-warning btn-opacity-50 rounded"
+            type="button"
+          >
             back
           </Link>
         </div>

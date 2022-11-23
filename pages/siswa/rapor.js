@@ -63,7 +63,7 @@ const Rapor = () => {
                   <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z" />
                   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                 </svg>
-                Absensi
+                Absen
               </Link>
               <Link
                 href={"/siswa/rapor"}
@@ -127,7 +127,103 @@ const Rapor = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-10"></div>
+          <div className="col-md-10 mt-5">
+            <h3 className="fw-bold mb-5">Rapor</h3>
+            <table class="table table-hover table-striped-columns">
+              <thead className="bg-primary">
+                <tr className="">
+                  <th scope="col">No</th>
+                  <th scope="col">Mata pelajaran</th>
+                  <th scope="col">KKM</th>
+                  <th scope="col">Nilai Pengetahuan</th>
+                  <th scope="col">Nilai Keterampilan</th>
+                  <th scope="col">Keterangan</th>
+                </tr>
+              </thead>
+              <tbody className="table table-info">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Matematika</td>
+                  <td>60</td>
+                  <td>75</td>
+                  <td>80</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Bahasa Indonesia</td>
+                  <td>65</td>
+                  <td>90</td>
+                  <td>90</td>
+                  <td>Sangat baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Bahasa inggris</td>
+                  <td>65</td>
+                  <td>80</td>
+                  <td>85</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Kimia</td>
+                  <td>60</td>
+                  <td>70</td>
+                  <td>70</td>
+                  <td>Cukup baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Fisika</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Biology</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>85</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>PKN</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Sejarah</td>
+                  <td>60</td>
+                  <td>90</td>
+                  <td>80</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Sosiologi</td>
+                  <td>65</td>
+                  <td>95</td>
+                  <td>95</td>
+                  <td>Sangat baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Geografi</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
