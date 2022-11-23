@@ -34,7 +34,7 @@ export default function Login() {
         </div>
         <div class="d-grid gap-2">
           <Link
-            href={"/login/guru/home"}
+            href={"/guru/home"}
             class="btn btn-info btn-opacity-50 rounded"
             type="button"
           >

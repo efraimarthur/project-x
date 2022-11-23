@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Home() {
+export default function Verifikasi() {
   return (
     <div className=" bg-home-guru ">
       <nav class="navbar navbar-expand-lg bg-dark">
@@ -41,7 +41,7 @@ export default function Home() {
               <Link
                 class="nav-link active text-white"
                 aria-current="page"
-                href="/login/guru/messege"
+                href="/Walikelas/messege"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div className="mx-3">
             <Link
-              href="/login/guru/home"
+              href="/Walikelas/home"
               className="text-decoration-none color red fw-bold text-info"
             >
               <svg
@@ -79,6 +79,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="mx-3">
+            {" "}
             <Link
               href="/login"
               className="text-decoration-none color red fw-bold text-info"
@@ -108,7 +109,7 @@ export default function Home() {
       <div className=" bg-dark text-white shadow p-3 mb-5  rounded bg-opacity-50 p-5 w-50  position-absolute top-50 start-50 translate-middle ">
         <div className=" mb-3 row  ">
           <h1>Hi</h1>
-          <h5>Silahkan Upload Nilai yang akan di kumpulkan</h5>
+          <h5>Silahkan Upload Raport Lama</h5>
 
           <div class="input-group mb-3">
             <input type="file" class="form-control" id="inputGroupFile02" />
@@ -118,20 +119,12 @@ export default function Home() {
           </div>
         </div>
         <div class="d-grid gap-2">
-          <button class="btn btn-primary btn-opacity-50" type="button">
-            <select class="form-select" aria-label="Default select example">
-              <option selected>Pilih Wali Kelas </option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </button>
           <Link
             href={"/"}
             class=" mt-4 btn btn-info w-50 btn-opacity-50 rounded fw-bold"
             type="button"
           >
-            Kumpulkan
+            Verifikasi
           </Link>
         </div>
       </div>
