@@ -1,5 +1,5 @@
 .bg-login {
-  background-image: url("/bglogin.jpg");
+  background-image: url("/bg.jpg");
   min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@
   bg-opacity: 50;
 }
 
-.bg-home-guru {
+.bg-ter {
   background-image: url("/bglogin.jpg");
   min-height: 100vh;
 }
@@ -17,4 +17,8 @@
 .bg-ppdb {
   background-image: url("/asu.png");
   min-height: 100vh;
+}
+
+.bg-guru {
+  background-color: #debace;
 }

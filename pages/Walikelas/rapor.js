@@ -1,12 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-export default function messege() {
+export default function Verifikasi() {
   return (
     <div className="bg-guru">
       <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <Link class="navbar-brand fw-bold text-decoration-none text-white mx-5" href="#"></Link>
+          <Link class="navbar-brand fw-bold text-decoration-none text-white mx-5" href="#">
+            Brand
+          </Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,6 +22,7 @@ export default function messege() {
               </Link>
             </div>
           </div>
+
           <div className="mx-3">
             <Link href="/walikelas" className="text-decoration-none color red fw-bold text-info">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -29,6 +32,7 @@ export default function messege() {
             </Link>
           </div>
           <div className="mx-3">
+            {" "}
             <Link href="/login" className="text-decoration-none color red fw-bold text-danger">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
                 <path
@@ -51,28 +55,28 @@ export default function messege() {
               </svg>
               <p className="fw-bold">John Doe</p>
             </div>
-            <div className="d-flex flex-column align-items-center justify-content-center  h-50 gap-2 shadow-sm">
+            <div className="d-flex flex-column align-items-center justify-content-center h-50 gap-2 shadow-sm">
               <Link href={"/walikelas"} className="d-block w-100 btn btn-dark py-2 rounded-pill">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house me-2" viewBox="0 0 16 16">
                   <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
                 </svg>
                 Dashboard
               </Link>
-              <Link href={"/walikelas/absen"} className="d-block w-100 btn btn-dark rounded-pill py-2">
+              <Link href={"/walikelas/absen"} className="d-block w-100 btn btn-dark py-2 rounded-pill">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date me-2" viewBox="0 0 16 16">
                   <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z" />
                   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
                 </svg>
                 Input Absen
               </Link>
-              <Link href={"/siswa/rapor"} className="d-block w-100 rounded-pill btn btn-dark py-2">
+              <Link href={"/walikelas/rapor"} className="d-block w-100 btn btn-dark py-2 rounded-pill">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist me-2" viewBox="0 0 16 16">
                   <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
                   <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
                 </svg>
                 Verifikasi Rapor Lama
               </Link>
-              <Link href={"/walikelas/hasil"} className="d-block rounded-pill w-100 btn btn-dark py-2">
+              <Link href={"/walikelas/hasil"} className="d-block w-100 btn btn-dark py-2 rounded-pill">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2-check me-2" viewBox="0 0 16 16">
                   <path d="M9.5 0a.5.5 0 0 1 .5.5.5.5 0 0 0 .5.5.5.5 0 0 1 .5.5V2a.5.5 0 0 1-.5.5h-5A.5.5 0 0 1 5 2v-.5a.5.5 0 0 1 .5-.5.5.5 0 0 0 .5-.5.5.5 0 0 1 .5-.5h3Z" />
                   <path d="M3 2.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 0 0-1h-.5A1.5 1.5 0 0 0 2 2.5v12A1.5 1.5 0 0 0 3.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 12.5 1H12a.5.5 0 0 0 0 1h.5a.5.5 0 0 1 .5.5v12a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-12Z" />
@@ -82,60 +86,112 @@ export default function messege() {
               </Link>
             </div>
           </div>
-          <div className="col-md-10">
-            <div className="row">
-              <div
-                className="col-md-12
-                "
-              >
-                <h1 style={{ color: "dark", fontFamily: "cursive" }} className="text-center fw-bold mt-2 border-bottom border-info shadow-sm">
-                  Pesan
-                </h1>
-                <table class="table rounded bg-white mt-2">
-                  <thead>
-                    <tr>
-                      <th scope="col">NO</th>
-                      <th scope="col">Email</th>
-                      <th scope="col">Tanggal</th>
-                      <th scope="col"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark@mail.com</td>
-                      <td>12-9-22</td>
-                      <td>
-                        <Link href="" className="text-decoration-none color red fw-bold text-info" target={"_blank"}>
-                          <button className="btn btn-primary">balas</button>
-                        </Link>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob@mail.com</td>
-                      <td>12-9-22</td>
-                      <td>
-                        <Link href="#" className="text-decoration-none color red fw-bold text-info" target={"_blank"}>
-                          <button className="btn btn-primary">balas</button>
-                        </Link>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Chelsea@mail.com</td>
-                      <td>12-9-22</td>
-                      <td>
-                        <Link href="" className="text-decoration-none color red fw-bold text-info" target={"_blank"}>
-                          <button className="btn btn-primary">balas</button>
-                        </Link>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div className="col-md-6"></div>
-            </div>
+          <div className="col-md-10 mt-5">
+            <h3 className="fw-bold mb-5">Rapor</h3>
+
+            <form class="d-flex mb-4" role="search">
+              <input class="form-control me-2" type="search" placeholder="John" aria-label="Search" />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+            <table class="table table-hover table-striped-columns">
+              <thead className="bg-primary">
+                <tr className="">
+                  <th scope="col">No</th>
+                  <th scope="col">Mata pelajaran</th>
+                  <th scope="col">KKM</th>
+                  <th scope="col">Nilai Pengetahuan</th>
+                  <th scope="col">Nilai Keterampilan</th>
+                  <th scope="col">Keterangan</th>
+                </tr>
+              </thead>
+              <tbody className="table table-info">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Matematika</td>
+                  <td>60</td>
+                  <td>75</td>
+                  <td>80</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Bahasa Indonesia</td>
+                  <td>65</td>
+                  <td>90</td>
+                  <td>90</td>
+                  <td>Sangat baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Bahasa inggris</td>
+                  <td>65</td>
+                  <td>80</td>
+                  <td>85</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Kimia</td>
+                  <td>60</td>
+                  <td>70</td>
+                  <td>70</td>
+                  <td>Cukup baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Fisika</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Biology</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>85</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>PKN</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Sejarah</td>
+                  <td>60</td>
+                  <td>90</td>
+                  <td>80</td>
+                  <td>Baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Sosiologi</td>
+                  <td>65</td>
+                  <td>95</td>
+                  <td>95</td>
+                  <td>Sangat baik</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Geografi</td>
+                  <td>60</td>
+                  <td>80</td>
+                  <td>75</td>
+                  <td>Baik</td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="button" class="btn btn-primary text-center w-50">
+              Verifikasi
+            </button>
           </div>
         </div>
       </div>
